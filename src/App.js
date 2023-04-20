@@ -24,7 +24,7 @@ function App() {
     }
   ];
 
-  // data.map((value, index, accArr) => console.log(value, index, accArr))
+   // data.map((value, index, accArr) => console.log(value, index, accArr))
   return (
     <div className="App">
       {data.map((profile, index) => (
