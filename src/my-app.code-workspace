@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../OneDrive/Desktop/Async"
+		},
+		{
+			"path": "../../OneDrive/Desktop/githublearning"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Async"
+	}
+}
