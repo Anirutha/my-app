@@ -16,9 +16,9 @@ export function Product({ prod, count, setCount }) {
     setShow(!show);
   }
 
-
-  return (
+return (
     <div>
+      <div key={prod.idx} className="col-12 col-sm-12 col-md-4 col-lg-4 pb-2 pt-2">
       <Card className="text-center" style={{ width: '18rem' }}>
         <Card.Header>
           <img className='card-img-top' src='https://dummyimage.com/450x300/dee2e6/6c757d.jpg' alt='...'></img>
@@ -45,6 +45,7 @@ export function Product({ prod, count, setCount }) {
               Remove Cart</Button>}
         </Card.Footer>
       </Card>
+      </div>
     </div>
   );
 }
